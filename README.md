@@ -11,3 +11,7 @@ So we brute force them as testing continuity of them all, then we apply the pred
 The p\[0-8\] uses internal states awared but before to apply the predictions.
 The p9 isn't so because we after to apply the predictions.
 However, if there's some discontinuity, we fail even with this p9.
+
+# Tips we need with this p9
+We need maximum rank input nor maximum compressed input on this.
+Otherwise, we need much more variable dimensions, we easily fails with this predictor.
